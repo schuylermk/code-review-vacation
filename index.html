@@ -11,33 +11,45 @@
 
   <body>
     <div class="container">
-      <h1>Vacation Planner</h1>
-      <h4>Is it time to get away? Complete the following for help deciding where to go!</h4>
-        <div id="blanks">
-          <form>
-            <div class="form-group">
-              <label for="person">First of all, what's your name?</label>
-              <input id="person" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="activity">Do you feel like having a <em>relaxing</em> trip, or do you want to <em>rage?</em></label>
-              <input id="activity" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="weather">Which do you prefer: A <em>warm</em> place or do you like a <em>cooler</em> climate?</label>
-              <input id="weather" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="wildout">Do you want to go on active <em>adventures</em>, or do you want to let loose and <em>party?</em></label>
-              <input id="wildout" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="interest">Soak in the <em>sun</em>, or soak up some <em>culture?</em></label>
-              <input id="interest" class="form-control" type="text">
-            </div>
-            <button type="submit" class="btn">Getaway!</button>
-          </form>
-        </div>
+      <div class="jumbotron">
+        <h1>Vacation Planner</h1>
+        <h4><em>Is it time to get away? Complete the following for help deciding where to go!</em></h4>
+      </div>
     </div>
-</body>
+
+    <div class="container">
+      <div class="jumbotron">
+        <legend>Do you feel like having a <em>relaxing</em> trip, or do you want to <em>rage?</em></em></legend>
+            <input type="checkbox" name="group1" />
+            <label for="radio-choice-1"><p>Relaxation</p></label>
+            <input type="checkbox" name="group1" />
+            <label for="radio-choice-2"><p>Recreation</p></label>
+
+
+        <legend>Do you want to go on active <em>adventures</em>, or do you want to let loose and <em>party?</em></legend>
+            <input type="checkbox" name="group2" />
+            <label for="radio-choice-1"><p>Into the Wild Outside</p></label>
+            <input type="checkbox" name="group2" />
+            <label for="radio-choice-2"><p>Into the Wildout</p></label>
+
+
+      	<legend>Soak in the <em>sun rays</em>, or the <a href="http://www.pbs.org/wnet/americanmasters/man-ray-prophet-of-the-avant-garde/510/">Man Rays?</a></legend>
+           	<input type="checkbox" name="group3" />
+           	<label for="radio-choice-1"><p>Sunny Beaches</p></label>
+            <input type="checkbox" name="group3" />
+           	<label for="radio-choice-2"><p>Culture</p></label>
+
+
+      	<legend>Lastly, but not leastly... Do you prefer a <em>warm</em> place or do you like a <em>cooler</em> climate?</legend>
+           	<input type="checkbox" name="group4" />
+           	<label for="radio-choice-1"><p>Warm</p></label>
+           	<input type="checkbox" name="group4" />
+           	<label for="radio-choice-2"><p>Cooler</p></label>
+
+        </div>
+      </div>
+    </div>
+  </body>
+
+
 </html>
