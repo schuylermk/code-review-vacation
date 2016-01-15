@@ -1,0 +1,23 @@
+p {
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.jumbotron {
+  border: solid 2px #d1e0e0;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+
+a {
+  text-decoration:none !important;
+}
+
+.container form {
+  padding: 2px;
+  border: solid 5px #d1e0e0;
+  border-radius: 5px;
+}
+.container p, input[type="text"] {
+  padding-left: 20px;
+}
