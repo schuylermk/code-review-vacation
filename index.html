@@ -17,8 +17,9 @@
       </div>
     </div>
 
-    <div class="container"
+    <div class="container">
       <div class="jumbotron">
+
         <form>
           <p><em>First off, what's your name?</em></p>
           <input type="text" class="form-control" placeholder="Who are you?">
@@ -26,9 +27,10 @@
       </div>
     </div>
 
+  <form>
     <div class="container">
-      <div class="jumbotron">
-        <legend>Do you feel like having a <em>relaxing</em> trip, or do you want to <em>rage?</em></em></legend>
+      <div class="jumbotron" id="yourTrip">
+        <legend>Do you feel like having a <em>relaxing</em> trip, or do you want to <em>rage?</em></legend>
             <input type="checkbox" name="group1" />
             <label for="radio-choice-1"><p>Relaxation</p></label>
             <input type="checkbox" name="group1" />
@@ -36,12 +38,9 @@
 
 
         <legend>Do you want to go on active <em>adventures</em>, or do you want to let loose and <em>party?</em></legend>
-            <input type="checkbox" name="group2" />
-            <label for="radio-choice-1"><p>Into the Wild Outside</p></label>
-            <input type="checkbox" name="group2" />
-            <label for="radio-choice-2"><p>Into the Wildout</p></label>
-
-
+            <label><input type="checkbox" value="adventure" name="rage">Into The Wild</label>
+            <label><input type="checkbox" value="party" name="rage">Into the Wildout</label>
+            
       	<legend>Soak in the <em>sun rays</em>, or the <a href="http://www.pbs.org/wnet/americanmasters/man-ray-prophet-of-the-avant-garde/510/">Man Rays?</a></legend>
            	<input type="checkbox" name="group3" />
            	<label for="radio-choice-1"><p>Sunny Beaches</p></label>
@@ -55,9 +54,10 @@
            	<input type="checkbox" name="group4" />
            	<label for="radio-choice-2"><p>Cooler</p></label>
 
-        </div>
       </div>
     </div>
+      <button type="submit" class="btn">Where to?!</button>
+  </form>
   </body>
 
 
