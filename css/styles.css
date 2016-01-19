@@ -2,15 +2,13 @@ h1, h3 {
   font-weight: 200;
 }
 
-.jumbotron p {
+.activity, .rigor, .soak, .climate, .form p {
   font-size: 1.8em;
   font-weight: 200;
+  color: #5095b1;
 }
-
-legend {
-  font-weight: 200;
-}
-legend em {
+p em {
+  color: #5297b3;
   font-weight: 200;
   text-shadow: 0.5px 0.5px 1px grey;
 }
@@ -26,7 +24,7 @@ a {
 }
 
 .container form {
-  padding: 2px;
+  padding: 5px;
   border: solid 2px #d1e0e0;
   border-radius: 5px;
 }
