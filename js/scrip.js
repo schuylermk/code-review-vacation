@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#inquiries").submit(function(event) {
+  $("form#questions").submit(function(event) {
 
     var rr = $('input[name=rr]:checked').val();
     var wild = $('input[name=wild]:checked').val();
@@ -7,12 +7,11 @@ $(document).ready(function() {
     var temp = $('input[name=temp]:checked').val();
 
 
-    if( ((rr === "relax") && (wild === "adventure") && (bacon === "beaches") && (temp === "hot")) )  {
+    if(((rr === "relax") && (wild === "adventure") && (bacon === "beaches") && (temp === "hot")))  {
       alert("hey");
       $("#aruba").show();
 
-
-      event.preventDefault();
     }
+  event.preventDefault();
   });
 });
