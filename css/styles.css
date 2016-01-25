@@ -6,6 +6,10 @@ h1, h3 {
   font-weight: 200;
 }
 
+ul {
+  list-style-type: none;
+}
+
 p em {
   color: #5297b3;
   font-weight: 200;
