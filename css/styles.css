@@ -1,4 +1,4 @@
-#aruba, #cairo, #berlin, #alaska {
+#aruba, #cairo, #berlin, #alaska, #lasvegas, #hawaii, #nunavut {
   display: none;
 }
 
@@ -46,9 +46,4 @@ input[type=submit] {
 
 .carousel-control.left, .carousel-control.right {
     background-image: none;
-}
-
-#aruba-img {
-  margin-left: 10%;
-  margin-right: 10%;
 }
